@@ -1,3 +1,4 @@
+#coding:utf-8
 """
 This tutorial introduces logistic regression using Theano and stochastic
 gradient descent.
@@ -50,7 +51,7 @@ import theano.tensor as T
 
 
 class LogisticRegression(object):
-    """Multi-class Logistic Regression Class
+    """ 
 
     The logistic regression is fully described by a weight matrix :math:`W`
     and bias vector :math:`b`. Classification is done by projecting data
@@ -75,7 +76,7 @@ class LogisticRegression(object):
 
         """
         # start-snippet-1
-        # initialize with 0 the weights W as a matrix of shape (n_in, n_out)
+        # 权重矩阵W为  n_in * n_out的初值全零的矩阵，用shared在训练函数和预测间传递
         self.W = theano.shared(
             value=numpy.zeros(
                 (n_in, n_out),
@@ -84,7 +85,7 @@ class LogisticRegression(object):
             name='W',
             borrow=True
         )
-        # initialize the biases b as a vector of n_out 0s
+        # 初始化偏差项 b 为 长度为 n_out 的0向量
         self.b = theano.shared(
             value=numpy.zeros(
                 (n_out,),
@@ -103,10 +104,11 @@ class LogisticRegression(object):
         # b is a vector where element-k represent the free parameter of
         # hyperplane-k
         self.p_y_given_x = T.nnet.softmax(T.dot(input, self.W) + self.b)
-
+        #用softmax函数处理，得到给定x得到y的概率分布p_y_given_x
         # symbolic description of how to compute prediction as class whose
         # probability is maximal
         self.y_pred = T.argmax(self.p_y_given_x, axis=1)
+        #得到p_y_given_x后，取其中最大的y_pred作为预测
         # end-snippet-1
 
         # parameters of the model
@@ -157,7 +159,7 @@ class LogisticRegression(object):
                   correct label
         """
 
-        # check if y has same dimension of y_pred
+        # 检查y是否有误check if y has same dimension of y_pred
         if y.ndim != self.y_pred.ndim:
             raise TypeError(
                 'y should have the same shape as self.y_pred',
@@ -221,7 +223,7 @@ def load_data(dataset):
 
     def shared_dataset(data_xy, borrow=True):
         """ Function that loads the dataset into shared variables
-
+        把读入的数据集放到shared变量中
         The reason we store our dataset in shared variables is to allow
         Theano to copy it into the GPU memory (when code is run on GPU).
         Since copying data into the GPU is slow, copying a minibatch everytime

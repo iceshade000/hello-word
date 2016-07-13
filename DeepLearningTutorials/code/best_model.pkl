@@ -19,7 +19,7 @@ NtRp7
 (dp8
 S'auto_name'
 p9
-S'auto_24335'
+S'auto_53840'
 p10
 sS'index'
 p11
@@ -47,12 +47,12 @@ S'run_code'
 p22
 S'exec(code_obj, self.user_global_ns, self.user_ns)'
 tp23
-a(S'<ipython-input-2-c43dfdff0f91>'
+a(S'<ipython-input-8-3d3ca64e42fd>'
 p24
 I1
 S'<module>'
 p25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp26
 a(S'C:\\Anaconda2\\lib\\site-packages\\spyderlib\\widgets\\externalshell\\sitecustomize.py'
 p27
@@ -68,20 +68,20 @@ S'execfile'
 p31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp32
-a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py'
+a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py'
 p33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp34
-a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py'
+a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py'
 p35
-I303
+I304
 S'sgd_optimization_mnist'
 p36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp37
-a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py'
+a(S'C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py'
 p38
 I94
 S'__init__'
@@ -176,7 +176,7 @@ g3
 NtRp69
 (dp70
 g9
-S'auto_24345'
+S'auto_53850'
 p71
 sg11
 I1
@@ -201,7 +201,7 @@ tp77
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp78
 a(g27
 I714
@@ -214,12 +214,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp80
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp81
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp82
@@ -248,7 +248,7 @@ g3
 NtRp90
 (dp91
 g9
-S'auto_24342'
+S'auto_53847'
 p92
 sg11
 I0
@@ -273,7 +273,7 @@ tp98
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp99
 a(g27
 I714
@@ -286,12 +286,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp101
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp102
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp103
@@ -315,7 +315,7 @@ g3
 NtRp108
 (dp109
 g9
-S'auto_24341'
+S'auto_53846'
 p110
 sg11
 I0
@@ -340,7 +340,7 @@ tp116
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp117
 a(g27
 I714
@@ -353,12 +353,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp119
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp120
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp121
@@ -382,7 +382,7 @@ g3
 NtRp126
 (dp127
 g9
-S'auto_24336'
+S'auto_53841'
 p128
 sg11
 I0
@@ -407,7 +407,7 @@ tp134
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp135
 a(g27
 I714
@@ -420,12 +420,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp137
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp138
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp139
@@ -449,7 +449,7 @@ g3
 NtRp144
 (dp145
 g9
-S'auto_24332'
+S'auto_53837'
 p146
 sg11
 Nsg12
@@ -480,7 +480,7 @@ tp155
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp156
 a(g27
 I714
@@ -493,12 +493,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp158
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp159
 a(g35
-I298
+I299
 g36
 S"x = T.matrix('x')  # data, presented as rasterized images"
 tp160
@@ -529,7 +529,7 @@ g3
 NtRp165
 (dp166
 g9
-S'auto_24334'
+S'auto_53839'
 p167
 sg11
 Nsg12
@@ -553,7 +553,7 @@ tp173
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp174
 a(g27
 I714
@@ -566,12 +566,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp176
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp177
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp178
@@ -675,7 +675,7 @@ g3
 NtRp202
 (dp203
 g9
-S'auto_24340'
+S'auto_53845'
 p204
 sg11
 I0
@@ -700,7 +700,7 @@ tp210
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp211
 a(g27
 I714
@@ -713,12 +713,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp213
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp214
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp215
@@ -902,7 +902,7 @@ g3
 NtRp274
 (dp275
 g9
-S'auto_30'
+S'auto_68'
 p276
 sg11
 Nsg12
@@ -973,7 +973,7 @@ g3
 NtRp293
 (dp294
 g9
-S'auto_24344'
+S'auto_53849'
 p295
 sg11
 I0
@@ -998,7 +998,7 @@ tp301
 a(g24
 I1
 g25
-Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/DeepLearningTutorials/code')
+Vrunfile('C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code/logistic_sgd.py', wdir='C:/Users/lyyssmsk/Desktop/DeepLearning/hello-word/DeepLearningTutorials/code')
 tp302
 a(g27
 I714
@@ -1011,12 +1011,12 @@ g31
 S"exec(compile(scripttext, filename, 'exec'), glob, loc)"
 tp304
 a(g33
-I475
+I476
 g25
 S'sgd_optimization_mnist()'
 tp305
 a(g35
-I303
+I304
 g36
 S'classifier = LogisticRegression(input=x, n_in=28 * 28, n_out=10)'
 tp306
